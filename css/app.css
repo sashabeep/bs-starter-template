@@ -55,3 +55,82 @@ img {
 	height: 100vh;
 	background: #fff;
 }
+
+*util*/
+.onevideo,
+.onephoto {
+	display: block;
+	position: relative;
+}
+
+.onevideo img {
+	position: relative;
+	z-index: 1;
+}
+
+.onevideo::before {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background: rgba(0, 0, 0, 0.5);
+	width: 64px;
+	height: 64px;
+	color: #fff;
+	border-radius: 64px;
+	line-height: 64px;
+	text-align: center;
+	content: "\f04b";
+	z-index: 2;
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+	font-size: 44px;
+	transform: translate(-50%, -50%)
+}
+
+.files img {
+	vertical-align: middle;
+	margin-top: -4px;
+}
+
+/*base typography*/
+body{
+	font-family: Roboto, 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.font-alt
+{
+	font-family: Roboto, 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6{
+/*	color: #066fb0*/
+}
+
+.font-default {
+	font-family: Roboto, 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
