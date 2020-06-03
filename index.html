@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="/css/bootstrap.css">
+	<link rel="stylesheet" href="/css/bootstrap-block.css">
+	<link rel="stylesheet" href="/css/app.css">
+	<link rel="stylesheet" href="/css/responsive.css">
+	<link rel="stylesheet" href="/css/lightcase.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Base Bootstrap Template</title>
+	<script>
+		var loader=document.createElement("div");
+		loader.setAttribute("class", "loading");
+		document.body.appendChild(loader);
+	</script>
+</head>
+
+<body>
+	<header class="header">
+		<div class="s-pad bg-light">
+			<div class="row align-items-center">
+				<div class="col"><a href="/"><img src="//idealim.ru/img/logo.svg" alt="BASE 2 IDEALIM"></a></div>
+				<div class="col-auto d-none d-sm-flex">
+					<div class="d-flex align-items-center">
+						<div class="flex-shrink-1 d-none d-md-block">
+							<div class="fas fa-phone-alt text-primary"></div>
+						</div>
+						<div class="flex-grow-1 pl-3"><a href="tel:+7(930) 707-23-12">+7(930) 707-23-12</a></div>
+					</div>
+				</div>
+				<div class="col-auto d-none d-md-flex">
+					<div class="d-flex align-items-center">
+						<div class="flex-shrink-1">
+							<div class="fas fa-envelope text-primary"></div>
+						</div>
+						<div class="flex-grow-1 pl-3">
+							<a href="mailto:info@idealim.ru">info@idealim.ru</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-auto">
+					<a href="/call?product_id=1" class="btn btn-primary buildform"><span><i class="fas fa-phone-alt"></i><span class="d-none d-lg-inline"> Заказать звонок</span></span></a>
+				</div>
+				<div class="col-auto d-md-none pl-0">
+					<button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#navbarsTop" aria-controls="navbarsTop" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars text-white"></i></button>
+				</div>
+			</div>
+			<div class="row col d-sm-none mt-4 text-center"> <a href="tel:+7(930) 707-23-12">+7(930) 707-23-12</a> </div>
+		</div>
+		<nav class="navbar navbar-expand-md navbar-main navbar-dark bg-success">
+			<div class="collapse navbar-collapse justify-content-md-center" id="navbarsTop">
+				<ul class="navbar-nav mainmenu">
+					<li class="nav-item first level1 active odd"><a class="nav-link" href="/">Главная</a></li>
+					<li class="nav-item level1 even"><a class="nav-link" href="/internal">Внутренняя</a></li>
+					<li class="nav-item last level1 dropdown odd"> <a class="nav-link dropdown-toggle" href="/blog" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Список текстов</a>
+						<ul class="dropdown-menu">
+							<li class="nav-item first last level2 odd"><a class="nav-link text-primary" href="/blog/kollektivnyj_strategicheskij_marketing-_osnovnye_momenty">Еще страница</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item s-pad2x text-center text-white bgcover active " style="background-image:url(//dummyimage.com/1400x700)">
+				<div class="row col s-pad">
+					<h2 class="display-3">idealim</h2>
+					<p>Пока вы отдыхаете — мы идеалим ваш бизнес в интернете. От дизайна, верстки и наполнения до рекламных кампаний, маркетинговых задач и моделей монетизации</p>
+					<a href="//idealim.ru" class="btn btn-primary">Перейти</a>
+				</div>
+			</div>
+			<div class="carousel-item s-pad2x text-center text-white bgcover" style="background-image:url(//dummyimage.com/1400x700)">
+				<div class="row col s-pad">
+					<h2 class="display-3">Наше портфолио</h2>
+					<p>Мы уже выпустили больше 200 проектов и готовы сделать еще</p>
+					<a href="//idealim.ru/portfolio/" class="btn btn-primary">Смотреть портфолио</a>
+				</div>
+			</div>
+			<div class="carousel-item s-pad2x text-center text-white bgcover" style="background-image:url(//dummyimage.com/1400x700)">
+				<div class="row col s-pad">
+					<h2 class="display-3">Еще один слайд!</h2>
+					<p>Это просто невероятно! Все эти слайды можно добавить через админку!</p>
+					<a href="internal" class="btn btn-primary">Некая кнопка</a>
+				</div>
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Назад</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Вперед</span>
+		</a>
+	</div>
+
+	<main class="s-pad">
+		<div class="row col">
+			<h1 class="display-4">Создание сайта в Нижнем Новгороде и Дзержинске</h1>
+			<p>Мы - профессионалы своего дела, мы не делаем плохих сайтов. Если вам нужен качественный сайт, который будет не просто существовать, а приносить вам прибыль - <strong><a href="//idealim.ru/services" target="_blank" rel="noopener">создание сайта</a></strong> в нашей компании - идеальное и правильное решение. Если у вас уже есть сайт, но вы не видите эффекта от его работы - вам будет полезно заказать оптимизацию сайта и <strong><a href="//idealim.ru/context/" target="_blank" rel="noopener">контекстную рекламу</a></strong>.</p>
+			<h2><a href="//idealim.ru/services" target="_blank" rel="noopener">Разработка сайта - Быстро и Качественно</a></h2>
+			<p>Наши предложения по <strong>созданию сайтов</strong> идеальны для тех, кому нужно создать качественный сайт в кратчайшие сроки</p>
+			<h2><a href="//idealim.ru/util" target="_blank" rel="noopener">Перенос сайтов на новую систему управления</a></h2>
+			<p>Получите скидку до 30% на создание сайта при переносе сайта на новую удобную систему управления! Удобная админка позволит вам оперативно вносить новую и обновлять старую информацию, и позволит добавлять новый функционал по мере необходимости.</p>
+			<h2><a href="//idealim.ru/context/" target="_blank" rel="noopener">Рекламные кампании</a></h2>
+			<p>Грамотно проработанная рекламная компания помогает не слить лишние деньги и получить целевых клиентов за минимальные деньги!</p>
+			<p>Только кампания, настроенная профессионалами, будет работать эффективно и качественно. Мы имеем огромный опыт и понимаем как работает рынок, как мыслит клиент. Мы разбираем любую тему &laquo;по костям&raquo; и уже, имея полное представление о Вашей сфере, собираем максимально возможное количество запросов и делаем под них рабочие объявления.</p>
+			<p>После запуска мы ведем кампании наших клиентов постоянно улучшая их в погоне за лучшими показателями!</p>
+		</div>
+	</main>
+
+	<section class="s-pad">
+		<div class="row col">
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="http://base20.rfw.su/" title="Главная">Главная</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Список текстов</li>
+				</ol>
+			</nav>
+			<h1 class="display-4">Список текстов</h1>
+			<div class="row xs-up-1 sm-up-1 md-up-2 lg-up-3 cbfix">
+				<div class="col col-block">
+					<div class="card h-100">
+						<a href="/blog/rynochnyj_mediamiks-_osnovnye_momenty"><img src="//dummyimage.com/400x280" alt="Рыночный медиамикс: основные моменты" class="card-img-top w-100"></a>
+						<div class="card-body">
+							<b>11.02.2020</b>
+							<h5 class="card-title"><a href="/blog/rynochnyj_mediamiks-_osnovnye_momenty">Рыночный медиамикс: основные моменты</a></h5>
+							<p class="card-text">В общем, концепция развития упорядочивает формат события. Диктат потребителя отражает бизнес-план…</p>
+						</div>
+						<div class="card-footer">
+							<a href="/blog/rynochnyj_mediamiks-_osnovnye_momenty" class="btn btn-primary">Подробнее</a>
+						</div>
+					</div>
+				</div>
+				<div class="col col-block">
+					<div class="card h-100">
+						<div class="card-body">
+							<h5 class="card-title"><a href="/blog/rolevoj_rebrending-_gipoteza_i_teorii">Ролевой ребрендинг: гипотеза и теории</a></h5>
+							<p class="card-text">Позиционирование на рынке традиционно развивает фирменный стиль…</p>
+						</div>
+						<div class="card-footer">
+							<a href="/blog/rolevoj_rebrending-_gipoteza_i_teorii" class="btn btn-primary">Подробнее</a>
+						</div>
+					</div>
+				</div>
+				<div class="col col-block">
+					<div class="card h-100">
+						<a href="/blog/kollektivnyj_strategicheskij_marketing-_osnovnye_momenty"><img src="//dummyimage.com/400x280" alt="Еще страница" class="card-img-top w-100"></a>
+						<div class="card-body">
+							<h5 class="card-title"><a href="/blog/kollektivnyj_strategicheskij_marketing-_osnovnye_momenty">Cтратегический маркетинг</a></h5>
+							<p class="card-text">Стимулирование сбыта позитивно транслирует мониторинг активности. Маркетинг, конечно, специфицирует рекламный бриф, работая над проектом…</p>
+						</div>
+						<div class="card-footer">
+							<a href="/blog/kollektivnyj_strategicheskij_marketing-_osnovnye_momenty" class="btn btn-primary">Подробнее</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<footer class="bg-light s-pad">
+		<div class="row cbfix">
+			<div class="col-12 col-md-8 col-lg-9 col-block">
+				<p>© 2020 BASE 2 IDEALIM
+					<br>Циолковского, 15, офис 350</p>
+				<p><a href="tel:+7(930) 707-23-12">+7(930) 707-23-12</a>
+					<br><a href="mailto:info@idealim.ru">info@idealim.ru</a></p>
+				<a href="/call?product_id=1" class="btn btn-primary buildform">Обратный звонок</a>
+			</div>
+			<div class="col col-block">
+				<a href="//idealim.ru" target="_blank" rel="noopener noreferrer"><img src="//idealim.ru/88x31/88x31_bea.svg" alt="Создание, разработка, продвижение, оптимизация, поддержка, раскрутка сайтов"></a>
+				<div id="brandline">Создание сайта — <a href="//idealim.ru" target="_blank" class="underline" rel="noopener noreferrer">idealim</a></div>
+			</div>
+		</div>
+	</footer>
+</body>
+<script src="/js/jquery-3.5.1.js"></script>
+<script src="/js/popper.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/lightcase.js"></script>
+<script src="/js/maskedinput.js"></script>
+<script src="/js/app.js"></script>
+</html>

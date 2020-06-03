@@ -1,0 +1,34 @@
+//BS OVERRIDES
+//$primary: #008AC4;
+//$success: #1BC400;
+//$danger: #C40000;
+//$info: #000;
+//$enable-rounded: false;
+
+@import "../bootstrap-scss/bootstrap.scss";
+
+.custom-select{
+	-webkit-appearance:none;
+	-moz-appearance:none;
+}
+
+//button-variant
+//bg, border, hover-bg, hover-border, active-background, active-border
+
+//.btn-white{
+//    @include button-variant(#fff, #fff, rgba(0,0,0,0.15), #fff, #000, #fff);
+//	color: #000;
+//}
+//
+//.btn-white-o{
+//    @include button-variant(rgba(0,0,0,0.15), #fff, #fff, #fff, #000, #fff); 
+//	color: #fff;
+//}
+//
+//.btn-white-o:hover, .btn-white-o:focus{
+//	color: #000;
+//}
+//
+//.btn-white:hover, .btn-white:focus{
+//	color: #fff;
+//}

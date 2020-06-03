@@ -1,0 +1,80 @@
+@media (max-width: 575.98px) {
+	.s-pad {
+		padding-top: 24px;
+		padding-bottom: 24px;
+	}
+
+	.s-padtop {
+		padding-top: 24px;
+	}
+
+	.s-padbot {
+		padding-bottom: 24px;
+	}
+	
+	footer.s-pad{
+		padding-bottom: 30px;
+	}
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+@media (max-width: 767.98px) {
+	.s-pad {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.s-padtop {
+		padding-top: 30px;
+	}
+
+	.s-padbot {
+		padding-bottom: 30px;
+	}
+
+}
+
+@media (min-width: 768px) {
+	.s-pad {
+		padding-top: 36px;
+		padding-bottom: 36px;
+	}
+
+	.s-padtop {
+		padding-top: 36px;
+	}
+
+	.s-padbot {
+		padding-top: 36px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (max-width: 991.98px) {
+	
+}
+
+@media (min-width: 992px) {
+	.s-pad {
+		padding-top: 48px;
+		padding-bottom: 48px;
+	}
+
+	.s-padtop {
+		padding-top: 48px;
+	}
+
+	.s-padbot {
+		padding-bottom: 48px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (max-width: 1200px) {}
+
+@media (min-width: 1200px) {}

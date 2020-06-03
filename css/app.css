@@ -1,0 +1,57 @@
+/*BOOTSRAP OVERRIDES*/
+*:focus, *:active {
+	outline: none
+}
+
+/*drop the .container*/
+.row {
+	max-width: 1240px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.row.expanded {
+	max-width: 100%;
+}
+
+.row:not(.expanded) .row {
+	max-width: none;
+}
+
+.row .row {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.row.col,
+.col.row {
+	display: block;
+}
+
+.col-block {
+	margin-bottom: 30px;
+}
+
+.cbfix {
+	margin-bottom: -30px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.bgcover{
+	background-position: 50% 50%;
+	background-size: cover;
+	background-repeat: no-repeat
+}
+
+.loading{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: #fff;
+}
