@@ -12,9 +12,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Base Bootstrap Template</title>
 	<script>
-		var loader=document.createElement("div");
-		loader.setAttribute("class", "loading");
-		document.body.appendChild(loader);
+		document.addEventListener("DOMContentLoaded", function(event) {
+			var loader = document.createElement("div");
+			loader.setAttribute("class", "loading");
+			document.body.appendChild(loader);
+		});		
 	</script>
 </head>
 
