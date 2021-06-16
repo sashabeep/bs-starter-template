@@ -3,5 +3,5 @@ Bootstrap starter template. VERY simple page AND demo of all the components is i
 
 1. Navigate to your HTML directory
 2. Clone this repo to current directory using ```git clone https://github.com/sashabeep/bs-starter-template.git .``` Yеp, with the dot in the end of command.
-3. Clone Bootstrap 4.5.3 SCSS using ```git clone https://github.com/crissdev/bootstrap-scss.git```
+3. Download Bootstrap-scss 4.6.0 from https://github.com/crissdev/bootstrap-scss/tree/v4.6.0 and unpack to /bootstrap-scss
 4. Customize some variables in ```/scss/bootstrap.scss``` and compile it to ```/css/bootstrap.css```. Full list of variables to change available in ```/bootstrap-scss/_variables.scss```.
